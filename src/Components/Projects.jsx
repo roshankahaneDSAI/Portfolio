@@ -214,6 +214,15 @@ const ProjectCarousel = () => {
       liveLink: ""
     },
     {
+      title: "Predictive-Maintenance-ML-System",
+      subheading: "MLOps Solution for Machine Predictive Maintenance",
+      description: "The system predicts machine failures and failure types from process parameters (air temperature, process temperature, torque, rotational speed, tool wear, etc.) and uses a GenAI layer to turn raw predictions, metrics, and logs into human-friendly insights.",
+      backgroundImage: Photo3,
+      technologies: ["MLFlow", "Flask", "Python", "Mongodb" ],
+      githubLink: "https://github.com/roshankahaneDSAI/GenAI-Powered-Predictive-Maintenance-System-with-MCP/blob/main/README.md",
+      liveLink: ""
+    },    
+    {
       title: "GenAI Powered Predictive Maintenance System with MCP",
       subheading: "Industrial Diagnostics Platform",
       description: "It is an industrial diagnostics platform that exposes vibration data, bearing health metrics, and maintenance records to LLMs through a Model Context Protocol server. It lets engineers and operators run fault detection, anomaly analysis, and maintenance planning simply by chatting with models like Claude, turning complex machine data into intuitive, conversational workflows.",
