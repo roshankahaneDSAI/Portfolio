@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Code, Github, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import Photo3 from '../assets/Project_Image/Photo3.jpg'
+import SF_Home from '../assets/Project_Image/SF_Home.png'
+import chatscreen from '../assets/Project_Image/chatscreen.png'
+import PM_Home from '../assets/Project_Image/PM_Home.png'
 
 // ProjectCard Component
 // eslint-disable-next-line no-unused-vars
@@ -199,7 +202,7 @@ const ProjectCarousel = () => {
       title: "HealthCare Chatbot",
       subheading: "RAG based Chatbot.",
       description: "A production-ready RAG chatbot that uses LangChain to orchestrate retrieval and generation, Pinecone to store and search text embeddings, and a Flask backend deployed on AWS to expose secure REST APIs and a chat UI. The system ingests domain documents, chunks and embeds them into Pinecone, then serves conversational Q&A where each answer is grounded in retrieved context, improving relevance, explainability, and maintainability without model fine-tuning.",
-     backgroundImage: Photo3,
+     backgroundImage: chatscreen,
       technologies: ["Python", "AWS", "RAG", "LangChain", "Pinecone", "Flask"],
       githubLink: "https://github.com/roshankahaneDSAI/HealthCare-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS/blob/main/README.md",
       liveLink: ""
@@ -208,7 +211,7 @@ const ProjectCarousel = () => {
       title: "Sales Forecasting and Analytics",
       subheading: "Full-Stack ML Development",
       description: "Sales Forecast App is a full‑stack, AI‑powered platform that predicts sales across regions and product lines and surfaces insights through interactive dashboards. It combines machine learning models with a modern Next.js, TailwindCSS, and TypeScript frontend to help teams plan revenue, inventory, and strategy with data‑driven confidence.",
-      backgroundImage: Photo3,
+      backgroundImage: SF_Home,
       technologies: ["React Native", "Node.js", "MongoDB", "Fast API", "Python"],
       githubLink: "https://github.com/roshankahaneDSAI/Sales_Forecasting_and_Analytics/blob/main/README.md",
       liveLink: ""
@@ -217,7 +220,7 @@ const ProjectCarousel = () => {
       title: "Predictive-Maintenance-ML-System",
       subheading: "MLOps Solution for Machine Predictive Maintenance",
       description: "The system predicts machine failures and failure types from process parameters (air temperature, process temperature, torque, rotational speed, tool wear, etc.) and uses a GenAI layer to turn raw predictions, metrics, and logs into human-friendly insights.",
-      backgroundImage: Photo3,
+      backgroundImage: PM_Home,
       technologies: ["MLFlow", "Flask", "Python", "Mongodb" ],
       githubLink: "https://github.com/roshankahaneDSAI/GenAI-Powered-Predictive-Maintenance-System-with-MCP/blob/main/README.md",
       liveLink: ""
