@@ -196,41 +196,41 @@ const ProjectCarousel = () => {
   // Sample projects data
   const [projects] = useState([
     {
-      title: "AI-Powered Analytics Dashboard",
-      subheading: "Machine Learning & Data Visualization",
-      description: "A comprehensive analytics platform that leverages machine learning algorithms to provide real-time insights and predictive analytics for business intelligence. Built with scalability and performance in mind.",
+      title: "HealthCare Chatbot",
+      subheading: "RAG based Chatbot.",
+      description: "A production-ready RAG chatbot that uses LangChain to orchestrate retrieval and generation, Pinecone to store and search text embeddings, and a Flask backend deployed on AWS to expose secure REST APIs and a chat UI. The system ingests domain documents, chunks and embeds them into Pinecone, then serves conversational Q&A where each answer is grounded in retrieved context, improving relevance, explainability, and maintainability without model fine-tuning.",
      backgroundImage: Photo3,
-      technologies: ["Python", "TensorFlow", "React", "D3.js", "PostgreSQL"],
-      githubLink: "https://github.com/username/analytics-dashboard",
-      liveLink: "https://analytics-demo.com"
+      technologies: ["Python", "AWS", "RAG", "LangChain", "Pinecone", "Flask"],
+      githubLink: "https://github.com/roshankahaneDSAI/HealthCare-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS/blob/main/README.md",
+      liveLink: ""
     },
     {
-      title: "E-Commerce Mobile App",
-      subheading: "Full-Stack Mobile Development",
-      description: "A feature-rich mobile commerce application with real-time inventory management, secure payment processing, and personalized shopping experiences. Supports both iOS and Android platforms.",
+      title: "Sales Forecasting and Analytics",
+      subheading: "Full-Stack ML Development",
+      description: "Sales Forecast App is a full‑stack, AI‑powered platform that predicts sales across regions and product lines and surfaces insights through interactive dashboards. It combines machine learning models with a modern Next.js, TailwindCSS, and TypeScript frontend to help teams plan revenue, inventory, and strategy with data‑driven confidence.",
       backgroundImage: Photo3,
-      technologies: ["React Native", "Node.js", "MongoDB", "Stripe API", "Firebase"],
-      githubLink: "https://github.com/username/ecommerce-app",
-      liveLink: "https://app-store-link.com"
+      technologies: ["React Native", "Node.js", "MongoDB", "Fast API", "Python"],
+      githubLink: "https://github.com/roshankahaneDSAI/Sales_Forecasting_and_Analytics/blob/main/README.md",
+      liveLink: ""
     },
     {
-      title: "Blockchain Voting System",
-      subheading: "Web3 & Smart Contracts",
-      description: "A secure, transparent voting platform built on Ethereum blockchain. Features smart contract-based vote counting, voter authentication, and real-time results with complete audit trails.",
+      title: "GenAI Powered Predictive Maintenance System with MCP",
+      subheading: "Industrial Diagnostics Platform",
+      description: "It is an industrial diagnostics platform that exposes vibration data, bearing health metrics, and maintenance records to LLMs through a Model Context Protocol server. It lets engineers and operators run fault detection, anomaly analysis, and maintenance planning simply by chatting with models like Claude, turning complex machine data into intuitive, conversational workflows.",
       backgroundImage: Photo3,
-      technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-      githubLink: "https://github.com/username/blockchain-voting",
-      liveLink: "https://voting-demo.com"
+      technologies: ["MCP Tools", "Claude Desktop", "Python" ],
+      githubLink: "https://github.com/roshankahaneDSAI/GenAI-Powered-Predictive-Maintenance-System-with-MCP/blob/main/README.md",
+      liveLink: ""
     },
     {
-      title: "Real-Time Chat Application",
-      subheading: "WebSocket & Microservices",
-      description: "A scalable real-time messaging platform with file sharing, video calls, and team collaboration features. Built with microservices architecture for high availability and performance.",
+      title: "Time Series Forecasting Using CatBoost",
+      subheading: "Forecasting model for sales data",
+      description: "A forecasting model for sales data leverages historical transactions, seasonality, and external factors to predict future revenue at different time horizons. It typically combines time‑series techniques and machine learning algorithms to capture trends and patterns, helping businesses plan inventory, staffing, and budgeting with data‑driven confidence.",
       backgroundImage: Photo3,
-      technologies: ["Node.js", "Socket.io", "Redis", "Docker", "Kubernetes"],
-      githubLink: "https://github.com/username/chat-app",
+      technologies: ["CatBoost", "Python", "Pandas", "NumPy", "Scikit-learn"],
+      githubLink: "https://github.com/roshankahaneDSAI/Time_Series_Forecasting_Using_CatBoost-/blob/main/README.md",
 
-      liveLink: "https://chat-demo.com"
+      liveLink: ""
     },
   
   ]);

@@ -217,7 +217,7 @@ const SkillCard = ({ skill, icon, index, category, hoveredSkill, setHoveredSkill
           )}
 
           {activeTab === 'certifications' && (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
               {certifications.map((cert, index) => (
                 <div key={index} className="group relative">
                   <div className="bg-white p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-700 transform hover:-translate-y-6 hover:rotate-0 border border-gray-100 relative overflow-hidden">
@@ -225,8 +225,9 @@ const SkillCard = ({ skill, icon, index, category, hoveredSkill, setHoveredSkill
                     <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-yellow-200 to-orange-200 rounded-full -translate-y-12 translate-x-12 opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
                     
                     <div className="relative z-10 text-center cursor-pointer">
-                      <div className="text-6xl mb-6 transition-all duration-400">
-                        {cert.icon}
+                      {/* <div className="text-6xl mb-6 transition-all duration-400"> */}
+                        {/* {cert.icon} */}
+                        <div className="text-center"> <img src={cert.icon} alt={cert.name} className="mx-auto mb-6 w-10 h-10" />
                       </div>
                       <h4 className="text-xl font-black text-gray-800 mb-4 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-red-500 group-hover:bg-clip-text transition-all duration-500">
                         {cert.name}

@@ -52,7 +52,7 @@ export default function Navbar() {
           
           {/* Logo */}
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-            RK
+            Want to know more about me?
           </div>
 
           {/* Desktop Menu */}

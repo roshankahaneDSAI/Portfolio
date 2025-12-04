@@ -1,10 +1,16 @@
 import { ChevronDown, Mail, Phone, Linkedin, Github, Award, Briefcase, GraduationCap, Code, Database, Cloud, Bot, Brain, TrendingUp, Users, Shield, Zap, ExternalLink, Download, Star, ChevronRight, Eye, ChevronLeft, Play, Pause } from 'lucide-react'; 
- 
+import databricks from "../assets/Project_Image/databricks.png";
+import IBM from "../assets/Project_Image/IBM.png";
+import microsoft from "../assets/Project_Image/microsoft.png";
+import Stanford from "../assets/Project_Image/Stanford.png";
+import mercedes_benz_logo from "../assets/Project_Image/mercedes_benz_logo.png";
+
+
   export const roles = [
     "Data Scientist",
     "GenAI Engineer", 
     "ML Engineer",
-    "AI Consultant",
+    "AI Engineer",
     "Innovation Leader"
   ];
  
@@ -12,30 +18,55 @@ import { ChevronDown, Mail, Phone, Linkedin, Github, Award, Briefcase, Graduatio
 // Mock data - replace with your actual imports
 export const experiences = [
   {
-    logo: "🏎️",
+    logo: mercedes_benz_logo,
     company: "Mercedes-Benz",
-    role: "Data Scientist",
-    period: "2023-Present",
+    role: " Data Scientist & Generative AI Engineer (Sales Analytics)",
+    period: "Oct 2023 - Present",
     location: "Banaglore, India",
-    tech: ["Python", "TensorFlow", "AWS", "Docker"],
+    tech: ["Python", "Open AI", "Databricks", "Azure", "GitHub"],
     achievements: [
       "Built GenAI agents improving customer service efficiency by 40%",
-      "Developed RAG chatbots serving 50K+ daily users",
-      "Architected ML pipelines processing 1M+ data points",
-      "Led cross-functional team of 8 engineers"
+      "Led design and deployment of a GenAI-powered chatbot serving 10K+ users",
+      "Built and optimized time series forecasting models for vehicle equipment demand.",
+      "Implemented MLOps workflows for continuous monitoring and retraining of models.",
+      "Collaborated cross-functionally to integrate AI solutions into business workflows."
     ]
   },
   {
     logo: "🚀",
-    company: "Previous Company",
-    role: "ML Engineer",
-    period: "2021-2023",
-    location: "Remote",
-    tech: ["PyTorch", "Kubernetes", "GCP"],
+    company: "Infosys Ltd",
+    role: "Data Scientist (Predictive Maintenance Solutions)",
+    period: "Feb 2021 - Oct 2023",
+    location: "Bangaolore, India",
+    tech: ["PyTorch", "Tensorflow", "Azure ML", "SQL", "Power BI"],
     achievements: [
-      "Reduced model inference time by 60%",
-      "Implemented automated ML workflows",
-      "Mentored junior developers"
+      "End-to-end development of predictive maintenance solutions using Random Forests, LSTM, CNNs, and NLP-based fault detection.",
+      "Engineered real-time data ingestion pipelines for scalable sensor analytics.",
+      "Delivered Power BI dashboards driving proactive maintenance scheduling and improving asset uptime.",
+    ]
+  },
+  {
+    logo: "🚀",
+    company: "Quest Global Ltd",
+    role: "Data Scientist (Retail Forecasting)",
+    period: "Dec 2019 - Oct 2020",
+    location: "Bangaolore, India",
+    tech: ["Python", "Tensorflow", "Keras", "SQL"],
+    achievements: [
+      "Built and deployed scalable demand forecasting models using ARIMA, Prophet, and LSTM improving multi-region retail forecast accuracy.",
+      "Developed automated data pipelines using Python (Pandas, NumPy, Scikit-learn, TensorFlow/Keras).",
+    ]
+  },
+  {
+    logo: "🚀",
+    company: "Cyient Ltd",
+    role: "Design Engineer -  Application Development",
+    period: "Dec 2019 - Oct 2020",
+    location: "Hyderabad, India",
+    tech: ["Python", "Git", "web frameworks"],
+    achievements: [
+      "Built RESTful APIs using Flask to serve ML models for integration into engineering workflows.",
+      "Developed Python-based GUIs and visualization tools to support ML model interpretability for warehouse teams.",
     ]
   }
 ];
@@ -45,28 +76,40 @@ export const skills = {
     // eslint-disable-next-line no-undef
     icon: Brain,
     color: "from-purple-500 to-pink-500",
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenAI API"],
+    skills: ["Time Series Forecasting","Predictive Maintenance","Deep Learning (CNN, LSTM)","NLP & LLMs","Semantic Search","Vector Databases","GenAI Chatbots","Prompt Engineering","Retrieval-Augmented Generation (RAG)","LLM Fine-tuning (LoRA, QLoRA)"],
     // icons: ["🧠", "🤖", "📊", "🔬", "⚡"]
   },
-  "Programming": {
+  "Agentic AI Systems": {
     icon: Code,
     color: "from-blue-500 to-cyan-500", 
-    skills: ["Python", "JavaScript", "SQL", "R", "Java"],
+    skills: ["Multi-Agent Architectures", "LLM Tool Calling & Orchestration", "Autonomous Workflow Agents", "Planning & Reasoning with LLMs", "Function Calling & API Integration", "AI Workflow Automation", "Task Decomposition & Reasoning Loops", "Memory-Augmented Agents", "Retrieval-Augmented Agents", "Agent Evaluation & Safety", "Agent Frameworks (LangGraph, AutoGen, Semantic Kernel)", "Toolformer-style Tool Use", "State Management for Agents", "Multi-step Action Planning", "Guardrails & Responsible Agent Design"],
+    icons: ["🐍", "⚡", "🗃️", "📈", "☕"]
+  },
+  
+  "Programming & Tools": {
+    icon: Code,
+    color: "from-blue-500 to-cyan-500", 
+    skills: ["Python (Pandas, NumPy, Scikit-learn, TensorFlow/Keras, PyTorch)", "SQL", "PySpark", "Git", "Docker", "FastAPI / Flask", "Power BI", "Databricks Dashboards", "JavaScript"],
     icons: ["🐍", "⚡", "🗃️", "📈", "☕"]
   },
   "Cloud & DevOps": {
     icon: Cloud,
     color: "from-emerald-500 to-teal-500",
-    skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+    skills: ["Azure Cloud","Azure Databricks","Azure Data Factory","AWS", "Delta Lake","Distributed Data Processing","Data Pipelines & Orchestration", "Docker", "Kubernetes", "CI/CD", "Terraform"],
     icons: ["☁️", "🐳", "⚙️", "🔄", "🏗️"]
   },
-  "Data Engineering": {
+  "MLOps / LLMOps": {
     icon: Database,
     color: "from-orange-500 to-red-500",
-    skills: ["Apache Spark", "Kafka", "MongoDB", "PostgreSQL", "Redis"],
+    skills: ["MLflow", "Azure ML & Databricks", "CI/CD for ML", "Model Monitoring & Retraining", "Responsible AI", "Model Governance", "Databricks Workflows", "Feature Engineering & Feature Store"],
     icons: ["⚡", "🌊", "🍃", "🐘", "💾"]
   }
 };
+
+
+
+
+
 
 
 export const projects = [
@@ -96,9 +139,10 @@ export const projects = [
 
 
   export const certifications = [
-    { name: "Microsoft Certified: Azure AI Engineer Associate", provider: "Microsoft", year: "2024", icon: "🎓" },
-    { name: "Microsoft Certified: Azure Data Scientist Associate", provider: "Microsoft", year: "2024", icon: "🎓" },
-    { name: "IBM Applied AI Developer Professional Certificate", provider: "IBM", year: "2023", icon: "🎓" },
-    { name: "Machine Learning - Stanford University", provider: "Coursera", year: "2023", icon: "🎓" }
+    { name: "Databricks Certified Generative AI Engineer Associate", provider: "Databricks", year: "2025", icon: databricks },
+    { name: "IBM Applied AI Developer Professional Certificate", provider: "IBM", year: "2023", icon: IBM },
+    { name: "Microsoft Certified: Azure AI Engineer Associate", provider: "Microsoft", year: "2024", icon: microsoft },
+    { name: "Microsoft Certified: Azure Data Scientist Associate", provider: "Microsoft", year: "2024", icon: microsoft },
+    { name: "Machine Learning - Stanford University", provider: "Coursera", year: "2023", icon: Stanford }
   ];
 

@@ -38,7 +38,7 @@ export default function Contact(){
                     <a href="tel:+919922397857" className="p-4 bg-gray-700 hover:bg-gray-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
                       <Phone className="w-8 h-8 text-emerald-400" />
                     </a>
-                    <a href="https://linkedin.com" className="p-4 bg-gray-700 hover:bg-gray-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
+                    <a href="https://www.linkedin.com/in/roshan-kahane-347550398/" className="p-4 bg-gray-700 hover:bg-gray-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
                       <Linkedin className="w-8 h-8 text-blue-400" />
                     </a>
                   </div>

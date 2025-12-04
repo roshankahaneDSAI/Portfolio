@@ -122,8 +122,9 @@ export default function Hero(){
               {/* Description */}
               <div className="animate-slide-up delay-300">
                 <p className="text-lg lg:text-xl text-slate-900 mb-5 leading-relaxed">
-                  I make machines think, systems scale, and people smile. From GenAI agents and RAG chatbots 
-                  to backend intelligence and ML innovation—I architect experiences that work, connect, and grow.
+                  I make machines think, systems scale, and people smile.
+                  From GenAI agents, agentic AI workflows and RAG chatbots to backend intelligence and ML innovation, 
+                  I architect AI experiences that work, connect, and grow
                 </p>
                 
               </div>

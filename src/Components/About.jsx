@@ -8,7 +8,7 @@ export default function About(){
           <svg className="w-full h-full">
             <path
               d="M0,200 Q400,100 800,200 T1600,200"
-              stroke="#3B82F6"
+              stroke="#337cf2ff"
               strokeWidth="2"
               fill="none"
               strokeDasharray="5,5"
@@ -30,10 +30,10 @@ export default function About(){
             {/* Key Skills Headline */}
             <div className="max-w-4xl mx-auto">
               <h3 className="text-xl font-bold text-slate-800 mb-4">
-                Leadership & Collaboration • Problem Solving • System Thinking • Technical Innovation
+                Agentic AI • LLM Orchestration • System Thinking • Technical Innovation • Problem Solving
               </h3>
               <p className="text-lg text-slate-600 font-medium">
-                Transforming complex business challenges into scalable AI solutions
+                Building scalable, production-ready AI solutions that deliver measurable business impact.
               </p>
             </div>
           </div>
@@ -58,11 +58,18 @@ export default function About(){
 
                 <div className="space-y-5">
                   <p className="text-lg text-slate-700 leading-relaxed">
-                    I'm a <strong>Data Scientist and Generative AI Engineer</strong> with <strong>6+ years of experience</strong> in building AI solutions that solve real business problems. Currently, I work at Mercedes-Benz R&D India as a Senior Consultant, where I design and deploy GenAI chatbots, sales forecasting models, and MLOps pipelines on Azure. My work has improved forecast accuracy, reduced costs, and made AI solutions more scalable and secure.
+                    I'm a <strong>Data Scientist and Generative AI Engineer</strong> with <strong>7+ years of experience</strong> building AI solutions that create real business impact. 
+                    I currently work at Mercedes-Benz Research & Development India, where I design and deploy GenAI chatbots, sales forecasting systems, and end-to-end MLOps pipelines on Azure Databricks. 
+                    My work has improved forecast accuracy, automated decision workflows, and made AI solutions more scalable, secure, and enterprise-ready.
                   </p>
                   
                   <p className="text-lg text-slate-700 leading-relaxed">
-                    Over the years, I've worked on <strong>predictive maintenance, sales forecasting, and full-stack AI systems</strong>—combining machine learning, deep learning, and cloud technologies. I enjoy collaborating across teams, creating end-to-end solutions, and turning complex data into actionable insights. I'm also certified in Azure AI and Data Science, and I continue to explore the latest in Generative AI and machine learning.
+                    My professional journey spans <strong>predictive maintenance, sales & inventory forecasting, NLP/LLM applications, and full-stack AI systems</strong>. 
+                    I enjoy solving complex problems—whether it’s designing a forecasting model for multi-region demand, building LLM-powered assistants for enterprise data, or deploying robust pipelines using Azure ML, Databricks, and MLflow.
+                  </p>
+                  <p className="text-lg text-slate-700 leading-relaxed">
+                    I'm certified in Databricks Generative AI, IBM Applied AI, Azure AI Engineering, and Azure Data Science, and 
+                    I continue to stay hands-on with the latest in Generative AI, LLMOps, and modern ML engineering practices.
                   </p>
                 </div>
 
@@ -74,7 +81,7 @@ export default function About(){
                       Technical Expertise
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Machine Learning", "Generative AI", "MLOps", "Azure", "Python", "Deep Learning"].map((skill) => (
+                      {["AI/ML", "GenAI", "LLMs", "Deep Learning", "Time Series Forecasting", "Predictive Maintenance", "Azure Databricks", "PySpark", "Python", "SQL", "Power BI", "MLOps/LLMOps"].map((skill) => (
                         <span key={skill} className="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium">
                           {skill}
                         </span>
@@ -88,7 +95,7 @@ export default function About(){
                       Leadership Skills
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Team Collaboration", "System Thinking", "Problem Solving", "Strategic Planning", "Innovation", "Mentoring"].map((skill) => (
+                      {["Solution Architecture for ML/GenAI", "Cross-Functional Collaboration", "Agile & Sprint Planning", "Strategic Planning", "Product Ownership", "Mentoring"].map((skill) => (
                         <span key={skill} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
                           {skill}
                         </span>
