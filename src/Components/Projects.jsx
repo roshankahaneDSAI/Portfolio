@@ -205,7 +205,7 @@ const ProjectCarousel = () => {
      backgroundImage: chatscreen,
       technologies: ["Python", "AWS", "RAG", "LangChain", "Pinecone", "Flask"],
       githubLink: "https://github.com/roshankahaneDSAI/HealthCare-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS/blob/main/README.md",
-      liveLink: ""
+      liveLink: "src/assets/video/healthbot.webm"
     },
     {
       title: "Sales Forecasting and Analytics",
@@ -214,7 +214,7 @@ const ProjectCarousel = () => {
       backgroundImage: SF_Home,
       technologies: ["React Native", "Node.js", "MongoDB", "Fast API", "Python"],
       githubLink: "https://github.com/roshankahaneDSAI/Sales_Forecasting_and_Analytics/blob/main/README.md",
-      liveLink: ""
+      liveLink: "src/assets/video/Sales_forecast.webm"
     },
     {
       title: "Predictive-Maintenance-ML-System",
@@ -223,7 +223,7 @@ const ProjectCarousel = () => {
       backgroundImage: PM_Home,
       technologies: ["MLFlow", "Flask", "Python", "Mongodb" ],
       githubLink: "https://github.com/roshankahaneDSAI/GenAI-Powered-Predictive-Maintenance-System-with-MCP/blob/main/README.md",
-      liveLink: ""
+      liveLink: "src/assets/video/PM_ML.webm"
     },    
     {
       title: "GenAI Powered Predictive Maintenance System with MCP",
