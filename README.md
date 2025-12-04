@@ -1,4 +1,4 @@
-# 🧠 Roshan Kahane – AI & Generative AI Portfolio
+# 🧠 Roshan Kahane – Portfolio
 
 Welcome to my personal portfolio – a web app that showcases my work as a **Data Scientist and Generative AI Engineer**.  
 This site highlights my **projects, skills, experience, and blog/content around AI, GenAI, and data science**.
