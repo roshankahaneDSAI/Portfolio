@@ -1,4 +1,4 @@
-import {Mail, Phone, Linkedin} from 'lucide-react';
+import {Mail, Phone, Linkedin, Github} from 'lucide-react';
 
 export default function Contact(){
     return (
@@ -40,6 +40,9 @@ export default function Contact(){
                     </a>
                     <a href="https://www.linkedin.com/in/roshan-kahane-347550398/" className="p-4 bg-gray-700 hover:bg-gray-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
                       <Linkedin className="w-8 h-8 text-blue-400" />
+                    </a>
+                    <a href="https://github.com/roshankahaneDSAI" className="p-4 bg-gray-700 hover:bg-gray-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
+                      <Github className="w-8 h-8 text-gray-400" />
                     </a>
                   </div>
                 </div>
